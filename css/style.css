@@ -569,12 +569,14 @@ header .icons #menu-bars{
     top:0;
   }
 
-  #scroll-top{
+  
+
+  #chat{
     position: fixed;
     top:-120%;
-    right:2rem;
+    right: 2rem;
     padding:.5rem 1.5rem;
-    font-size: 4rem;
+    font-size: 200%;
     background:var(--green);
     color:#fff;
     border-radius: .5rem;
@@ -582,7 +584,7 @@ header .icons #menu-bars{
     z-index: 1000;
   }
   
-  #scroll-top.active{
+  #chat.active{
     top:calc(100% - 12rem)
   }
 
