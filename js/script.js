@@ -49,8 +49,8 @@ var swiper = new Swiper(".home-slider", {
 
 window.onscroll = () =>{
 
-  // menu.classList.remove('fa-times');
-  // navbar.classList.remove('active');
+  menu.classList.remove('fa-times');
+  navbar.classList.remove('active');
 
   if(window.scrollY > 60){
     document.querySelector('#chat').classList.add('active');
